@@ -2,6 +2,12 @@
 
 Repositório contendo exercícios, resoluções e práticas desenvolvidas na disciplina de **LAED (Laboratório de Algoritmos e Estruturas de Dados)** durante o semestre **2026.1**.
 
+## Branch das listas 
+
+[LISTA 01](https://github.com/Glz-Dev/LAED/tree/Lista01)
+[LISTA 02](https://github.com/Glz-Dev/LAED/tree/Lista02)
+[LISTA 03](https://github.com/Glz-Dev/LAED/tree/Lista03)
+
 ## Conteúdo
 
 - Estruturas condicionais
