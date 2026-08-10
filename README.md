@@ -27,6 +27,13 @@ Repositório contendo exercícios, resoluções e práticas desenvolvidas na dis
 - Busca
 - Manipulação de dados
 - Exercícios de lógica e algoritmos
+- Multilistas
+- Listas encadeadas
+- Listas duplamente encadeada
+- Pilha e Fila
+- Pilha e Fila encadeadas
+- Heap
+
 
 ## Linguagem utilizada
 
