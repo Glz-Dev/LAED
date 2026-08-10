@@ -10,6 +10,13 @@ Repositório contendo exercícios, resoluções e práticas desenvolvidas na dis
 
 [LISTA 03](https://github.com/Glz-Dev/LAED/tree/Lista03)
 
+[LISTA 04](https://github.com/Glz-Dev/LAED/tree/Lista04/Lista04)
+
+[LISTA 05]()
+
+[LISTA 06]()
+
+
 ## Conteúdo
 
 - Estruturas condicionais
