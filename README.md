@@ -12,9 +12,9 @@ Repositório contendo exercícios, resoluções e práticas desenvolvidas na dis
 
 [LISTA 04](https://github.com/Glz-Dev/LAED/tree/Lista04/Lista04)
 
-[LISTA 05]()
+[LISTA 05](https://github.com/Glz-Dev/LAED/tree/Lista05)
 
-[LISTA 06]()
+[LISTA 06](https://github.com/Glz-Dev/LAED/tree/Lista06)
 
 
 ## Conteúdo
