@@ -1,3 +1,4 @@
+
 class No:
     def __init__(self, valor):
         self.valor = valor
@@ -9,30 +10,57 @@ class ListaDupla:
     def __init__(self):
         self.inicio = None
         self.fim = None
-        
+
+    def inserir_fim(self, valor):
+        novo = No(valor)
+
+        if self.inicio is None:
+            self.inicio = novo
+            self.fim = novo
+        else:
+            novo.ant = self.fim
+            self.fim.prox = novo
+            self.fim = novo
+
+    def imprimir(self):
+        atual = self.inicio
+
+        while atual is not None:
+            print(atual.valor, end=" ")
+            atual = atual.prox
+
+        print()
+
+
 def trocar(lista, a, b):
-    if a.prox != b:
-        return
+
+   
 
     antes = a.ant
     depois = b.prox
 
+    
     if antes is not None:
         antes.prox = b
     else:
         lista.inicio = b
 
+    
     if depois is not None:
         depois.ant = a
     else:
         lista.fim = a
 
+   
     b.ant = antes
     b.prox = a
 
     a.ant = b
     a.prox = depois
+
+
 def varredura(lista):
+
     atual = lista.inicio
 
     while atual is not None and atual.prox is not None:
@@ -40,7 +68,11 @@ def varredura(lista):
         proximo = atual.prox
 
         if atual.valor > proximo.valor:
+
             trocar(lista, atual, proximo)
+
             atual = atual.prox
+
         else:
             atual = atual.prox
+

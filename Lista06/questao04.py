@@ -10,7 +10,29 @@ class ListaDupla:
         self.inicio = None
         self.fim = None
 
+    def inserir_fim(self, valor):
+        novo = No(valor)
+
+        if self.inicio is None:
+            self.inicio = novo
+            self.fim = novo
+        else:
+            novo.ant = self.fim
+            self.fim.prox = novo
+            self.fim = novo
+
+    def imprimir(self):
+        atual = self.inicio
+
+        while atual is not None:
+            print(atual.valor, end=" ")
+            atual = atual.prox
+
+        print()
+
+
 def particionar(lista, k):
+
     q = lista.inicio
     r = lista.fim
 
@@ -26,25 +48,13 @@ def particionar(lista, k):
 
         if q is None or r is None:
             break
-        
-        p = q
-        encontrou_r = False
-
-        while p is not None:
-            if p == r:
-                encontrou_r = True
-                break
-            p = p.prox
-
-        if not encontrou_r:
-            break
 
         if q == r:
             break
 
+       
         q.valor, r.valor = r.valor, q.valor
 
         q = q.prox
         r = r.ant
 
-    return lista
