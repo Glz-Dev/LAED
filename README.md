@@ -14,7 +14,7 @@ Repositório contendo exercícios, resoluções e práticas desenvolvidas na dis
 
 [LISTA 05]()
 
-[LISTA 06]()
+[LISTA 06](https://github.com/Glz-Dev/LAED/tree/Lista06/Lista06)
 
 
 ## Conteúdo
